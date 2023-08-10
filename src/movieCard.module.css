@@ -1,7 +1,10 @@
 .movieCard {
     list-style: none;
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
+    text-shadow: 0 0 15px #fd833c, 0 0 10px #ff0000;
+    color: #ffe5a9;
+    font-family: "Sacramento", cursive;
 }
 
 .movieImage {
