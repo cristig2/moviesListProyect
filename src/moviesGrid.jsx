@@ -1,10 +1,12 @@
+import { MovieCard } from "./movieCard";
 import movies from "./movies.json"
+import styles from "./moviesGrid.module.css";
 
 export function MoviesGrid() {
     return (
-        <ul>
+        <ul className={styles.moviesGrid}>
             {movies.map((movie) => (
-               <li key={movie.id}>{movie.title}</li>
+               <MovieCard key={movie.id} movie={movie} />
             ))}
         </ul>
     );
@@ -16,3 +18,5 @@ que recorre todo los titulos y los pasa dentro de una lista*/
 /*Siempre que tengamos un listado debemos ponerle una key que sea unica
 para dinamizarla y pasarle un atributo cambiamos las comillas por las 
 llaves y dentro la expresion de JS el objeto .id ejemplo: movie.id*/
+/*Se ha cambiado li por el nombre del componente MovieCard y su atributo
+movie*/
