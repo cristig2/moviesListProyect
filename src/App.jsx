@@ -1,5 +1,5 @@
 import { MoviesGrid } from "./moviesGrid";
-import styles from "./app.module.css"
+import styles from "./App.module.css"
 
 export function App()
 {

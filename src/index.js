@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { App } from "./app";
+import { App } from "./App";
 
 /*El nombre se crea con la primera letra en mayuscula para diferenciar
 de los elementos de HTML predeterminados.*/
